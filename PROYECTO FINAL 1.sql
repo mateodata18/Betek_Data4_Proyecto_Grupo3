@@ -104,6 +104,3 @@ USE HORIZONTES;
   Fecha_Expedicion DATE NOT NULL,
   FOREIGN KEY (ID_Inscripcion) REFERENCES Inscripcion (ID_Inscripcion),
   );
-
-  SELECT *
-  FROM Certificado
